@@ -1,0 +1,579 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    /* overflow: hidden; */
+}
+.navbar nav{
+    display: flex;
+    align-items: center;
+}
+.logo-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img{
+    width: 70px;
+    margin: 20px auto auto 35px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar ul li{
+    margin: 20px;
+    font-size: x-large;
+    font-weight: 700;
+}
+.navbar ul li button{
+    font-size: x-large;
+    font-weight: 700;
+    border: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border-radius: 30px;
+    padding: 10px;
+    width: 165px;
+    line-height: 1.5;
+}
+.navbar ul li.website{
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 125px;
+    line-height: 1.5;
+    background: #FFC0C7!important;
+}
+
+/* Main Screen Style */
+.main-screen{
+    background-color: #282A35!important;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-screen h1{
+    font-size: 90px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0px 40px;
+}
+.main-screen-h2-content{
+    color: #FFC0C7!important;
+    font-size: 33px;
+}
+.main-screen-h2-link{
+    font-size: 32px;
+    text-decoration: underline;
+    color: #fff;
+    text-align: center;
+}
+.main-screen input{
+    width: 100%;
+    padding: 18px;
+    border-radius: 45px;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.main-screen div{
+    margin: 30px;
+}
+
+/* Card style */
+.main-screen-div{
+    height: 87vh;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.html-card{
+    background-color: #D9EEE1;
+}
+.main-screen-div-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-screen-div-content h1{
+    font-size: 140px;
+    font-weight: 800;
+    text-align: center;
+}
+.buttons{
+    flex-direction: column;
+}
+.main-screen-div-content button{
+    width: 80%;
+    font-size: 25px;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 0px;
+    margin: 15px auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+.buttons{
+    margin: 50px;
+}
+.learn-btn button{
+    color: #fff;
+    background-color: #04AA6D;
+}
+.tutorial-btn button{
+    color: #000;
+    background-color: #FFF4A3!important;
+}
+.ref-btn button{
+    color: #fff;
+    background-color: #000;
+}
+.main-screen-div-code-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    background-color: #E7E9EB;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.box-code{
+    overflow: hidden;
+    width: 90%;
+    margin: 30px auto;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-left: 7px solid #04AA6D;
+    padding:20px;
+    font-size: 25px;
+}
+.try-it-yourself button{
+    width: 50%;
+    font-size: 25px;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 0px;
+    margin: 15px auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* CSS Card style  */
+.css-card{
+    background-color: #FFF4A3!important;
+}
+
+/* JS Card */
+.js-card{
+    background-color: #282A35!important;
+}
+.js-card h1{
+    font-size: 90px;
+}
+.js-card h1,.js-card h2{
+    color: #fff;
+}
+.js-card .ref-btn button{
+    color: #000;
+    background-color: #fff;
+}
+.js-card .main-screen-div-code-box h1{
+    color: #000;
+    font-size: 30px;
+}
+
+/* Python card */
+.python-card{
+    background-color: #F3ECEA!important;
+}
+.python-card h1{
+    font-size: 110px;
+}
+.python-card .main-screen-div-code-box h1{
+    font-size: 30px;
+}
+
+/* SQL Card */
+.sql-card{
+    background-color: #96D4D4!important;
+}
+
+/* Other all card container */
+.other-all-card-container{
+    background-color: #282A35!important;
+}
+
+/* 2 Type of card style */
+.second-type-card-conatiner{
+    overflow: hidden;
+    width: 100%;
+    display: grid;
+    grid-template-columns:  50% 50%;
+    padding-top: 70px;
+}
+.second-type-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 40px;
+    text-align: center;
+}
+.second-type-card h1{
+    font-size: 70px;
+}
+.second-type-card p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.second-type-card button{
+    width: 70%;
+    font-size: 25px;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 0px;
+    margin: 15px auto;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #282A35!important;
+}
+.second-type-card div{
+    margin: 20px;
+}
+
+/* Some color Classes */
+.green{
+    background-color: #04AA6D;
+}
+.pink{
+    background-color: #FFC0C7;
+}
+.yellow{
+    background-color: #FFF4A3;
+}
+.whity{
+    background-color: #F3ECEA;
+}
+.whity2{
+    background-color: #D9EEE1;
+}
+.greeny{
+    background-color: #96D4D4;
+}
+.whity3{
+    background-color: #E7E9EB;
+}
+
+/* Third type card */
+.third-type-card{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Four type card */
+.four-type{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.four-type-card{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* Margin 0px class */
+.mt-10{
+    margin-top: 10px;
+}
+
+/* Gift main container */
+.gif-main-container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.gif-main-container h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+.gif-main-container p{
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.gif-container{
+    border-radius: 10px;
+    background-color: #E7E9EB;
+    width: 90%;
+    margin-bottom: 22px;
+}
+.gif-container img{
+    border-radius: 10px;
+    width: 100%;
+}
+.gif-buttons{
+    width: 90%;
+    height: 300px;
+}
+
+.gif-buttons button{
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 15px auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* W3School Space */
+.w3school-space-bg{
+    background: linear-gradient(#282a35ef, #282a35ef),url('https://wallpaper.dog/large/20497941.jpg') repeat fixed 100%;
+    height: 140vh;
+    width: 100%;
+}
+.w3school-space-inner div{
+    margin: 20px;
+}
+.w3school-space-inner{
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.w3school-space-inner h1{
+    font-size: 75px;
+    color: #fff;
+}
+.w3school-space-inner p{
+    font-size: 25px;
+    color: #fff;
+}
+.w3school-space-inner button{
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin: 15px auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+.w3school-space-inner img{
+    width: 100%;
+}
+.w3school-space-img{
+    width: 90%;
+}
+
+/* Color Picker */
+.color-picker-div{
+    height: 90vh;
+    background-color: #F3ECEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.color-picker-div div{
+    margin: 18px;
+}
+.color-picker-div h1{
+    font-size: 90px;
+    font-weight: 700;
+}
+.color-picker-div p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.color-picker-img{
+    width: 15%;
+}
+.color-picker-div img{
+    width: 100%;
+}
+
+/* Code Game */
+.code-game{
+    background-color: #96D4D4!important;
+    font-family: 'Freckle Face', cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.code-game div{
+    text-align: center;
+    margin: 18px;
+}
+.code-game h1{
+    font-size: 70px;
+}
+.code-game p{
+    font-size: 45px;
+}
+.code-game button{
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 50px;
+    margin: 15px auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+.code-game-img{
+    width: 12%;
+}
+.code-game img{
+    width: 100%;
+}
+
+/* Quiz Container */
+.quiz-container{
+    background: url('./images/w3codes.png') repeat fixed 100%;
+    height: 100vh;
+}
+.quiz-inner{
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quiz-inner h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.quiz-inner p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.quiz-card-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.quiz-card{
+    width: 40vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.cl-black{
+    color: #000;
+}
+
+/* Templates div */
+.template-div{
+    background-color: #E7E9EB!important;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.template-div div{
+    margin: 20px;
+}
+.template-div h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.template-div p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.template-btn{
+    width: 50%;
+}
+.template-btn button{
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 50px;
+    margin: 15px auto;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Tag Container */
+.tag-w3c{
+    height: 80vh;
+    background-color: #282A35;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFC0C7;
+    padding: 50px;
+}
+.tag-w3c div{
+    margin: 25px;
+}
+.tag-w3c h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+.tag-w3c h2{
+    font-size: 65px;
+    font-weight: 700;
+}
+.tag-w3c button{
+    font-size: 25px;
+    border: none;
+    border-radius: 35px;
+    padding: 25px 60px;
+    margin: 15px auto;
+    font-size: 25px;
+    font-weight: 600;
+}
